@@ -9,8 +9,7 @@ C is widely used in systems and embedded application programming, which involves
 - The assembly code is translated into machine code using an assembler. The assembler converts assembly instructions into binary instructions. The output of this stage is an object file ('.o' or '.obj') file contains machine code instructions and data
 - Linking, if the program consists of mulitple source file, each files is compiled seperately into an object file. The linker that combines the object files, resolves symbols and references, and links them with libraries. The result is an executable binary file.
 
-Optimization : The compiler performs various optimization to generate efficient machine code, including constant folding, loop unrolling and inlining functions
-And also some other stuffs are Register allocation to minimize memory access, Memory layout like call stack, Dynammic linking, system calls.
+Optimization: The compiler performs various optimizations to generate efficient machine code, including constant folding, loop unrolling, and inlining functions. Other aspects such as register allocation to minimize memory access, memory layout like the call stack, dynamic linking, and system calls are also considered.
 
 Now here in this section I have fibonacci.c file which is a usual fibonacci series program.
 As I said earlier compiler after analyzing the code it translates the c program into assembly code .s file. We are going to take a look at how the assembly file look like, you don;t need to memorize it or don't get overwhelmed of seeing those code. I just give this to understand it conceptually not super in-dpeth. If you want to make assemble file for your c program type the following command. Before that make sure that you have gcc compiler in your system.
