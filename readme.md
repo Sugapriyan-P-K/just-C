@@ -1,5 +1,4 @@
 ## How C language works underthehood
-
 C is widely used in systems and embedded application programming, which involves direct memory manipulation, low-level control, and standard libraries that provide essential functions and utilities. Many modern languages are built on C's concepts.
 
 ### A formal C program contains
