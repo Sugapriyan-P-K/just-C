@@ -2,7 +2,6 @@
 C is widely used in systems and embedded application programming, which involves direct memory manipulation, low-level control, and standard libraries that provide essential functions and utilities. Many modern languages are built on C's concepts.
 
 ### A formal C program contains
-
 - Starting with the preprocessing file, which is nothing but _#include <someheaderfile>_, it handles directives that start with '#' in the source code. It also performs conditional compilation using #ifdef.
 - Compilation: The compiler (GCC, Clang, etc.) translates C source code into assembly code. It performs lexical analysis, parsing, semantic analysis, and optimization, among other tasks. The output is an assembly code file with a (.s) extension.
 - The assembly code is translated into machine code using an assembler. The assembler converts assembly instructions into binary instructions. The output of this stage is an object file ('.o' or '.obj') file contains machine code instructions and data
