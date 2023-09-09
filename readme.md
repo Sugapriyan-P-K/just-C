@@ -22,7 +22,8 @@ gcc -s cProgramName.c
 Assembly program for fibonacci.c is in fibonacci.s
 
 To get the intermediate code execute the following command, for that you need to install LLVM
-Link to LLVM : [download link](https://github.com/llvm/llvm-project/releases/tag/llvmorg-17.0.0-rc3)
+Link to LLVM : [download link](https://github.com/llvm/llvm-project/releases/tag/llvmorg-17.0.0-rc3).
+
 As usual installation, after installation.
 
 ```
