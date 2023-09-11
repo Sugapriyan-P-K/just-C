@@ -1,7 +1,7 @@
 # include <stdio.h> //head File
 # include <string.h> // Character serial file
 # include <stdlib.h>
-
+// this program uses more DS of C program so you can know more things in this program
 typedef struct in
 {
     char id[20];//member account
