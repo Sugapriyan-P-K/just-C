@@ -1,7 +1,10 @@
 ## How C language works underthehood
 C is widely used in systems and embedded application programming, which involves direct memory manipulation, low-level control, and standard libraries that provide essential functions and utilities. Many modern languages are built on C's concepts.
 
-![C Overview](https://github.com/Sugapriyan-P-K/just-C/blob/main/assets/cOverview.jpg)
+&nbsp;
+<div align="center">
+  <img src="https://github.com/Sugapriyan-P-K/just-C/blob/main/assets/cOverview.jpg" alt="C Overview" /> 
+</div>
 
 ### A formal C program contains
 - Starting with the preprocessing file, which is nothing but _#include <someheaderfile>_, it handles directives that start with '#' in the source code. It also performs conditional compilation using #ifdef.
