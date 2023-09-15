@@ -46,6 +46,11 @@ gcc -c hello.c
 
 Object file for fibonacci.c is in fibonacci.o
 
+To read the sections in object file just like reading sections in ELF file in linux using readelf command use the following command
+```
+objdump -h filename.o
+```
+
 Command for parse tree:
 
 ```
